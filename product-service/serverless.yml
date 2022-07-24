@@ -1,0 +1,38 @@
+service: product-service
+
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+  region: eu-west-1
+  stage: dev
+  httpApi:
+    cors: true
+
+package:
+  individually: true
+  patterns:
+    - '!**'
+
+functions:
+  getProductsList:
+    handler: get-product-list-handler.getProductsList
+    package:
+      patterns:
+        - get-product-list-handler.js
+        - data.json
+    events:
+      - httpApi:
+          method: get
+          path: /products
+  getProductsById:
+    handler: get-product-by-id-handler.getProductsById
+    package:
+      patterns:
+        - get-product-by-id-handler.js
+        - data.json
+    events:
+      - httpApi:
+          method: get
+          path: /products/{id}
