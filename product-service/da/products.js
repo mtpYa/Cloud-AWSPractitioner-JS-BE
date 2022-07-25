@@ -1,8 +1,6 @@
 const { v4: uuidv4 } = require('uuid');
 const pool = require('../db/db.client');
 
-pool.connect();
-
 module.exports.queryAllProducts = async () => {
   const query = `
     SELECT id, title, price, description, imageurl, count 
@@ -12,6 +10,8 @@ module.exports.queryAllProducts = async () => {
   `;
 
   try {
+    pool.connect();
+
     const res = await pool.query(query);
 
     return res.rows;
@@ -31,6 +31,8 @@ module.exports.queryProductById = async (productId) => {
   const values = [ productId ];
 
   try {
+    pool.connect();
+
     const res = await pool.query(query, values);
 
     return res.rows[0];
@@ -53,6 +55,8 @@ module.exports.createNewProduct = async (title, price, description, imageurl, co
 
   const productValues = [ productId, title, price, description, imageurl ];
   const stockValues = [productId, count];
+
+  pool.connect();
 
   const client = await pool.connect();
 
