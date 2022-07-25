@@ -10,29 +10,43 @@ provider:
   httpApi:
     cors: true
 
+plugins:
+  - serverless-offline
+  - serverless-dotenv-plugin
+
 package:
   individually: true
   patterns:
-    - '!**'
+    - '!functions/**'
+    - '!package.json'
+    - '!package-lock.json'
+    - '!.env'
 
 functions:
   getProductsList:
-    handler: get-product-list-handler.getProductsList
+    handler: functions/get-product-list-handler.getProductsList
     package:
       patterns:
-        - get-product-list-handler.js
-        - data.json
+        - functions/get-product-list-handler.js
     events:
       - httpApi:
           method: get
           path: /products
   getProductsById:
-    handler: get-product-by-id-handler.getProductsById
+    handler: functions/get-product-by-id-handler.getProductsById
     package:
       patterns:
-        - get-product-by-id-handler.js
-        - data.json
+        - functions/get-product-by-id-handler.js
     events:
       - httpApi:
           method: get
           path: /products/{id}
+  createProduct:
+    handler: functions/create-product-handler.createProduct
+    package:
+      patterns:
+        - functions/create-product-handler.js
+    events:
+      - httpApi:
+          method: post
+          path: /products
