@@ -1,0 +1,58 @@
+service: import-service
+
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+  region: eu-west-1
+  stage: dev
+  httpApi:
+    cors: true
+
+  iam:
+    role:
+      statements:
+        - Effect: 'Allow'
+          Action:
+            - 's3:ListBucket'
+          Resource: 'arn:aws:s3:::mtp-shop-assets'
+        - Effect: 'Allow'
+          Action:
+            - 's3:*'
+          Resource: 'arn:aws:s3:::mtp-shop-assets/*'
+
+plugins:
+  - serverless-offline
+
+package:
+  individually: true
+  patterns:
+    - '!functions/**'
+    - '!package.json'
+    - '!package-lock.json'
+
+functions:
+  importProductsFile:
+    handler: functions/import-products-file-handler.importProductsFile
+    package:
+      patterns:
+        - functions/import-products-file-handler.js
+    events:
+      - httpApi:
+          method: get
+          path: /import
+  importFileParser:
+    handler: functions/import-file-parser-handler.importFileParser
+    package:
+      patterns:
+        - functions/import-file-parser-handler.js
+    events:
+      - s3:
+          bucket: mtp-shop-assets
+          event: s3:ObjectCreated:*
+          rules:
+            - prefix: uploaded/
+            - suffix: .csv
+          existing: true
+
