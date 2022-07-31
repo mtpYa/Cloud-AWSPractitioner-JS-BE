@@ -1,0 +1,22 @@
+{
+  "name": "product-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "get-product-by-id-handler.js",
+  "scripts": {
+    "deploy": "sls deploy",
+    "dev:local": "sls offline"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pg": "^8.7.3",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "serverless": "^3.21.0",
+    "serverless-dotenv-plugin": "^4.0.1",
+    "serverless-offline": "^9.0.0"
+  }
+}

@@ -5,70 +5,70 @@
       "title": "Acme Animation Factory",
       "price": 12,
       "description": "Acme Animation Factory is an educational art and graphics video game released by Sunsoft in November 1994 for the Super Nintendo Entertainment System.",
-      "imageUrl": "http://d2e95wycmne81n.cloudfront.net/ACME_Animation_Factory_Coverart.png"
+      "imageurl": "http://d2e95wycmne81n.cloudfront.net/ACME_Animation_Factory_Coverart.png"
     },
     {
       "id": "7567ec4b-b10c-48c5-9345-fc73c48a80a1",
       "title": "Animaniacs",
       "price": 16,
       "description": "Animaniacs is a series of platform video games developed by Konami, based on the animated series of the same name. Two games were developed featuring significantly different gameplay and storylines; one for Super Nintendo Entertainment System, and one for the Sega Mega Drive/Genesis and Game Boy.",
-      "imageUrl": "http://d2e95wycmne81n.cloudfront.net/Animaniacs_SNES_cover_art.jpg"
+      "imageurl": "http://d2e95wycmne81n.cloudfront.net/Animaniacs_SNES_cover_art.jpg"
     },
     {
       "id": "7567ec4b-b10c-48c5-9345-fc73c48a80a3",
       "title": "Battle Blaze",
       "price": 14,
       "description": "Battle Blaze is a 1992 medieval fighting game released for the Super Nintendo Entertainment System by Sammy Studios. Players use swords, morningstars, knives, and other weapons to beat up their opponents. The player can either play in a colosseum or on a quest. The eventual goal is defeat the Dark Lord who lives in a castle in the sky.",
-      "imageUrl": "http://d2e95wycmne81n.cloudfront.net/Battle_Blaze_Coverart.png"
+      "imageurl": "http://d2e95wycmne81n.cloudfront.net/Battle_Blaze_Coverart.png"
     },
     {
       "id": "7567ec4b-b10c-48c5-9345-fc73348a80a1",
       "title": "Battletoads in Battlemaniacs",
       "price": 18,
       "description": "Battletoads in Battlemaniacs is a 1993 platforming beat 'em up video game developed by Rare and published by Tradewest for the Super Nintendo Entertainment System, part of the Battletoads series. The game was released in North America in June 1993, in Europe in October 1993 and in Japan on January 7, 1994. It was also ported for the Sega Master System and released exclusively in Brazil. It was released around the same time as Battletoads & Double Dragon, another installment in the series.",
-      "imageUrl": "http://d2e95wycmne81n.cloudfront.net/Battletoads_in_Battlemaniacs.png"
+      "imageurl": "http://d2e95wycmne81n.cloudfront.net/Battletoads_in_Battlemaniacs.png"
     },
     {
       "id": "7567ec4b-b10c-48c5-9445-fc73c48a80a2",
       "title": "Chrono Trigger",
       "price": 21,
       "description": "Chrono Trigger is a 1995 role-playing video game developed and published by Square. It was originally released for the Super Nintendo Entertainment System as the first game in the Chrono series. The game's development team included three designers that Square dubbed the 'Dream Team': Hironobu Sakaguchi, creator of Square's Final Fantasy series; Yuji Horii, creator of Enix's Dragon Quest series; and Akira Toriyama, character designer of Dragon Quest and author of the Dragon Ball manga series.",
-      "imageUrl": "http://d2e95wycmne81n.cloudfront.net/Chrono_Trigger.jpg"
+      "imageurl": "http://d2e95wycmne81n.cloudfront.net/Chrono_Trigger.jpg"
     },
     {
       "id": "7567ec4b-b10c-45c5-9345-fc73c48a80a1",
       "title": "Demon's Crest",
       "price": 10,
       "description": "Demon's Crest, known in Japan as Demon's Blazon,it is a side-scrolling platform video game developed and published by Capcom for the Super Nintendo Entertainment System. It is the third video game starring Firebrand (an enemy character from the Ghosts 'n Goblins series, known as 'Red Arremer' in the Japanese version), following Gargoyle's Quest and Gargoyle's Quest II.",
-      "imageUrl": "http://d2e95wycmne81n.cloudfront.net/Demonscrest_us.jpg"
+      "imageurl": "http://d2e95wycmne81n.cloudfront.net/Demonscrest_us.jpg"
     },
     {
       "id": "7563ec4b-b11c-48c5-9435-fc73c48a12a2",
       "title": "Double Dragon V: The Shadow Falls",
       "price": 16,
       "description": "Double Dragon V: The Shadow Falls is a fighting game developed by Leland Interactive Media and published by Tradewest for the Super Nintendo Entertainment System and Sega Genesis in 1994. It was later released for the Atari Jaguar by Telegames the following year.",
-      "imageUrl": "http://d2e95wycmne81n.cloudfront.net/SNES_Double_Dragon_V_-_The_Shadow_Falls_cover_art.jpg"
+      "imageurl": "http://d2e95wycmne81n.cloudfront.net/SNES_Double_Dragon_V_-_The_Shadow_Falls_cover_art.jpg"
     },
     {
       "id": "7267ec4b-b11c-45c5-9348-fc73c48a00a1",
       "title": "F-Zero",
       "price": 12,
       "description": "F-Zero is a futuristic racing video game developed by Nintendo EAD and published by Nintendo for the Super Nintendo Entertainment System (SNES). The game was released in Japan on November 21, 1990, in North America in August 1991, and in Europe in 1992. F-Zero is the first game of the F-Zero series, and was a launch title for the SNES.",
-      "imageUrl": "http://d2e95wycmne81n.cloudfront.net/SNES_F-Zero_boxart.jpg"
+      "imageurl": "http://d2e95wycmne81n.cloudfront.net/SNES_F-Zero_boxart.jpg"
     },
     {
       "id": "7527ec4b-b14c-48c5-9315-fc73c48a89a1",
       "title": "HyperZone",
       "price": 23,
       "description": "HyperZone is a rail shooter video game developed and published by HAL Laboratory for the Super Nintendo Entertainment System (SNES). It used the SNES' Mode 7 capability.",
-      "imageUrl": "http://d2e95wycmne81n.cloudfront.net/HyperZone_box_art.JPG"
+      "imageurl": "http://d2e95wycmne81n.cloudfront.net/HyperZone_box_art.JPG"
     },
     {
       "id": "4567ec4b-b20c-48c5-9645-fc73c49a80a3",
       "title": "Kirby Super Star",
       "price": 22,
       "description": "Kirby Super Star, released as Kirby's Fun Pak in PAL regions, is a platform video game developed by HAL Laboratory and published by Nintendo for the Super Nintendo Entertainment System in 1996. It is part of the Kirby series of video games by HAL Laboratory.",
-      "imageUrl": "http://d2e95wycmne81n.cloudfront.net/Kirby_Super_Star_Coverart.png"
+      "imageurl": "http://d2e95wycmne81n.cloudfront.net/Kirby_Super_Star_Coverart.png"
     }
   ]
 }
